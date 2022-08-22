@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Testing of how MySQL works with Rails 7. Preparation for a final app.
 
-Things you may want to cover:
+* Ruby version : ruby 3.0.3p157 (2021-11-24 revision 3fb7d2cadc)
+* Rails version 7
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* System dependencies :
+    * simple_form
+    * devise for authentication
+    * pundit for authorizations
+* Database creation : MySQL Ver 8.0.30
