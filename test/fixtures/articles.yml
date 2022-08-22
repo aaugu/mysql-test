@@ -4,8 +4,10 @@ one:
   title: MyString
   content: MyText
   url: MyString
+  user: one
 
 two:
   title: MyString
   content: MyText
   url: MyString
+  user: two
