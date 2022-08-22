@@ -1,4 +1,4 @@
 class Article < ApplicationRecord
   validates :title, :content, :url, presence: true
-  validates :url, format: {with: /^(?:https:\/\/)?[\w.-]+(?:\.[\w\.-]+)+[\w\-\._~:/?#[\]@!\$&'\(\)\*\+,;=.]+$/ }, message: "Format d'URL incorrect"}
+  validates :url, format: {with: /\Ahttps:\/\/[a-z0-9]+([-.]{1}[a-z0-9]+)*\.[a-z]{2,5}(([0-9]{1,5})?\/.*)?\z/}
 end
